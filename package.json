@@ -1,0 +1,31 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "Simple class for handling authentication for api server",
+  "main": "auth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinhagensjr/auth.git"
+  },
+  "keywords": [
+    "node.js",
+    "security",
+    "token",
+    "encryption",
+    "api"
+  ],
+  "author": "Kevin Hagens Jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinhagensjr/auth/issues"
+  },
+  "homepage": "https://github.com/kevinhagensjr/auth#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "debug": "^3.1.0",
+    "jsonwebtoken": "^8.1.0"
+  }
+}
