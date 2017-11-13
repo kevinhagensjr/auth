@@ -92,10 +92,11 @@ class Auth{
 	}
 	
 	/*
-		@params - req - the http request headers/body
+		@params - password - password non-encrypted
+		@params - hash - encrypted password to check against
 		Description: checks a web token to see if corrupt	
 	*/
-	passwordIsGood(password){
+	passwordIsGood(password,hash){
 		
 		return bcrypt.compareSync(password, hash); //TO DO: switch to async
 	}
